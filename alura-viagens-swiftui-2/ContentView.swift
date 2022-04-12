@@ -5,6 +5,9 @@
 //  Created by Cezar Castro Rosa on 07/04/22.
 //
 
+// UIKit: Storyboard, xib -> XML -> ViewController
+// SwiftUI: View
+
 import SwiftUI
 
 struct ContentView: View {

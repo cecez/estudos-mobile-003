@@ -14,11 +14,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26AE68DA28047512000ED495 /* struct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = struct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		26C98D0027FF34E50032E466 /* alura-viagens-swiftui-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alura-viagens-swiftui-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C98D0327FF34E50032E466 /* alura_viagens_swiftui_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alura_viagens_swiftui_2App.swift; sourceTree = "<group>"; };
 		26C98D0527FF34E50032E466 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		26C98D0727FF34E90032E466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26C98D0A27FF34E90032E466 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26C98D1128007FAE0032E466 /* struct_vs_class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = struct_vs_class.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,8 @@
 				26C98D0527FF34E50032E466 /* ContentView.swift */,
 				26C98D0727FF34E90032E466 /* Assets.xcassets */,
 				26C98D0927FF34E90032E466 /* Preview Content */,
+				26C98D1128007FAE0032E466 /* struct_vs_class.playground */,
+				26AE68DA28047512000ED495 /* struct.playground */,
 			);
 			path = "alura-viagens-swiftui-2";
 			sourceTree = "<group>";
