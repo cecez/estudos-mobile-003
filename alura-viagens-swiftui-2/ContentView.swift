@@ -21,16 +21,27 @@ struct ContentView: View {
         
         VStack {
             Text("alura viagens")
+                .foregroundColor(Color.white)
+                .font(.custom("Avenir Black", size: 20))
             Text("ESPECIAL")
+                .foregroundColor(Color.white)
+                .font(.custom("Avenir Book", size: 20))
+                .padding(.leading, 30)
+                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
             Text("BRASIL")
+                .foregroundColor(Color.white)
+                .font(.custom("Avenir Black", size: 23))
+                .padding(.leading, 30)
+                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
             
             List {
-                Text("Porto Alegre")
+                Text("Porto Alegres")
                 Text("Arroio dos Ratos")
                 Text("Não me Toque")
                 Text("Xangri-la")
             }
         }
+        .background(Color.purple)
         
     }
 }
