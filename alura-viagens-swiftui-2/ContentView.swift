@@ -43,6 +43,28 @@ struct ContentView: View {
                 .frame(width: view.size.width, height: 180, alignment: .top)
                 .background(Color.purple)
                 
+                HStack {
+                    Button(action: {}) {
+                        Text("Hotéis")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(Color.white)
+                    }
+                    .padding()
+                    .background(Color.blue)
+                    .frame(width: 100, height: 50)
+                    
+                    
+                    Button(action: {}) {
+                        Text("Pacotes")
+                            .font(.custom("Avenir Medium", size: 17))
+                            .foregroundColor(Color.white)
+                    }
+                    .padding()
+                    .background(Color.orange)
+                    .frame(width: 100, height: 50)
+                    
+                }
+                
                 List {
                     Text("Porto Alegres")
                     Text("Arroio dos Ratos")
